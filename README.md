@@ -10,10 +10,10 @@ https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/h
 https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/resume.png
 
 
-![HR Ticket Demo](https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/hr_ticket.png)![HR Ticket Demo](assets/hr_ticket.png)
+###![HR Ticket Demo](https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/hr_ticket.png)![HR Ticket Demo](assets/hr_ticket.png)
 
 ### Resume Classification
-![Resume Demo](assets/resume.png)
+### ![Resume Demo](assets/resume.png)
 
 A Python, NLP, and Streamlit proof-of-concept that demonstrates how AI can support HR ticket routing and resume classification workflows.
 
