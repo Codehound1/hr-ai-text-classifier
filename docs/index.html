@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR AI Text Classification Project</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f8fb; color: #1f2937; line-height: 1.6; }
+    header { background: #111827; color: white; padding: 48px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.4rem; }
+    header p { font-size: 1.1rem; max-width: 850px; margin: 15px auto 0; color: #d1d5db; }
+    main { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+    section { background: white; margin-bottom: 22px; padding: 26px; border-radius: 14px; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+    h2 { color: #111827; margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; background: #fafafa; }
+    .tag { display: inline-block; background: #e0f2fe; color: #075985; padding: 6px 10px; margin: 4px; border-radius: 999px; font-size: 0.9rem; }
+    pre { background: #111827; color: #f9fafb; padding: 16px; border-radius: 10px; overflow-x: auto; }
+    footer { text-align: center; padding: 30px; color: #6b7280; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HR AI Text Classification Project</h1>
+    <p>A Python, NLP, and Streamlit proof-of-concept for HR ticket routing and resume classification workflows.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>This project demonstrates how unstructured HR text can be converted into structured categories that support routing, workflow automation, analytics, and human review.</p>
+    </section>
+
+    <section>
+      <h2>Use Cases</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Use Case 1: HR Ticket Routing</h3>
+          <p>Classifies employee HR messages into categories such as Payroll, Benefits, Leave, IT Access, Recruiting, and Employee Relations.</p>
+          <pre>I did not receive my direct deposit today.</pre>
+          <p><strong>Predicted Category:</strong> Payroll</p>
+        </div>
+        <div class="card">
+          <h3>Use Case 2: Resume Classification</h3>
+          <p>Classifies resume-style text into broad job families such as Data Analyst / Data Engineer, Human Resources, Clinical / Healthcare, Software Engineering, and Finance / Accounting.</p>
+          <pre>Epic Clarity analyst with SQL, Caboodle, Tableau, and healthcare compliance reporting experience.</pre>
+          <p><strong>Predicted Job Family:</strong> Data Analyst / Data Engineer</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Stack</h2>
+      <span class="tag">Python</span><span class="tag">pandas</span><span class="tag">scikit-learn</span>
+      <span class="tag">TF-IDF</span><span class="tag">Logistic Regression</span><span class="tag">joblib</span>
+      <span class="tag">Streamlit</span><span class="tag">NLP</span>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <ol>
+        <li>Sample HR text and resume text are loaded from CSV files.</li>
+        <li>Text is converted into numerical features using TF-IDF vectorization.</li>
+        <li>A Logistic Regression model learns category patterns from labeled examples.</li>
+        <li>The trained model predicts categories for new HR messages or resume text.</li>
+        <li>A Streamlit app provides a simple web interface for demo purposes.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Business Value</h2>
+      <ul>
+        <li>Reduces manual triage for HR service teams.</li>
+        <li>Improves consistency in routing employee requests.</li>
+        <li>Supports candidate pipeline organization.</li>
+        <li>Creates structured categories from unstructured text.</li>
+        <li>Provides a foundation for HR analytics and workflow automation.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Responsible AI</h2>
+      <p>This project is a proof of concept. In a real HR environment, AI predictions should support human review, not replace it. A production version should include bias testing, fairness checks, audit logging, privacy controls, security review, and compliance validation.</p>
+    </section>
+
+    <section>
+      <h2>Run the Project Locally</h2>
+      <pre>python -m pip install -r requirements.txt
+python src/train_model.py
+python src/train_resume_classifier.py
+python -m streamlit run src/app.py</pre>
+    </section>
+
+    <section>
+      <h2>Future Enhancements</h2>
+      <ul>
+        <li>Add larger anonymized HR datasets.</li>
+        <li>Add confidence thresholds and human review queues.</li>
+        <li>Export classification results to CSV or SQL Server.</li>
+        <li>Add dashboards showing HR request trends.</li>
+        <li>Integrate with Workday, ServiceNow, SharePoint, email, or ATS workflows.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>Built as an AI/NLP portfolio project for HR workflow automation.</footer>
+</body>
+</html>
