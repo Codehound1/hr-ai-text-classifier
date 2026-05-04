@@ -73,6 +73,7 @@ Expanded training datasets
 Improved feature engineering (sublinear_tf=True)
 Balanced class weighting
 Confidence-based human review flag
+
 ⚠️ Responsible AI Note
 
 This is a proof of concept. In real HR workflows, AI should support human decision-making, not replace it. Production use requires:
