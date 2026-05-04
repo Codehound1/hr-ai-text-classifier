@@ -2,18 +2,17 @@
 
 🤖 HR AI Text Classification Project
 
+A Python, NLP, and Streamlit proof-of-concept that demonstrates how AI can support HR ticket routing and resume classification workflows.
+
 ## 📸 Demo
 
-### HR Ticket Routing
+### Images
 https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/hr_ticket.png
 
 https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/resume.png
 
 
-
-A Python, NLP, and Streamlit proof-of-concept that demonstrates how AI can support HR ticket routing and resume classification workflows.
-
-🚀 Live Portfolio
+🚀 **Live Portfolio**
 
 👉 https://codehound1.github.io/hr-ai-text-classifier/
 
