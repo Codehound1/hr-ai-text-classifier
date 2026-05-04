@@ -2,6 +2,14 @@
 
 🤖 HR AI Text Classification Project
 
+## 📸 Demo
+
+### HR Ticket Routing
+![HR Ticket Demo](assets/hr_ticket.png)
+
+### Resume Classification
+![Resume Demo](assets/resume.png)
+
 A Python, NLP, and Streamlit proof-of-concept that demonstrates how AI can support HR ticket routing and resume classification workflows.
 
 🚀 Live Portfolio
