@@ -5,6 +5,8 @@
 ## 📸 Demo
 
 ### HR Ticket Routing
+https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/hr_ticket.png
+
 ![HR Ticket Demo](https://raw.githubusercontent.com/Codehound1/hr-ai-text-classifier/main/assets/hr_ticket.png)![HR Ticket Demo](assets/hr_ticket.png)
 
 ### Resume Classification
